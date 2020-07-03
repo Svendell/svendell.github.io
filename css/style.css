@@ -1,0 +1,152 @@
+*{
+    padding: 0;/*отступ внутрь*/
+    margin: 0;/*отступ наружу*/
+font-family: Arial, sans-serif;
+box-sizing: border-box;
+}
+body{
+    background-color: green;
+}
+
+header{ 
+    margin: 60px 80px 10px 80px;
+    padding: 80px 0px 40px 40px;
+    background: url(file:///C:/Users/Svende/Desktop/SITE2/img/frog.jpg) no-repeat center top / cover;
+    border: 5px solid white;
+    border-radius: 10px;  
+}
+.headbox{
+
+}
+.container{
+    margin: 0px 80px 0px 80px;
+}
+.p1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button1{
+    border-radius: 2px;
+    border: greenyellow;
+    color:white;
+    background-color:rgb(106, 158, 27);
+    font-size: 15px;
+    font-family: monospace;
+}
+aside{
+    width: 15%;
+    float:left;
+    padding-right: 10px;
+}
+.inner-aside{
+    min-height: 800px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding-top: 10px
+}
+.categor{
+    padding: 10px 0px 10px 20px;
+    margin: 0px 10px 0px 10px ;
+    background-color: rgb(7, 54, 7);
+    border:;
+    border-radius: 15px; 
+    color:white;
+    font-size: 20px;
+}
+menu{
+    padding:0px;
+    margin:0px;
+}
+.menuli{
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-left: 20%;
+    margin: 0px 00px 0px 00px ;
+    list-style-type: none;
+}
+.menuli a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.boxmain{
+    width: 85%;
+    float:left;
+}
+.inner-boxmain{
+    min-height: 800px;
+    background-color: #fff;
+    border-radius: 10px; 
+}
+.archive{
+    min-height: 800px;
+    width: 20%;
+    /* border:2px solid black; 
+    background-color:white;
+    border-radius: 10px; */
+    float: left;
+}
+.inner-archive{
+    padding: 10px 0px 10px 20px;
+    margin: 10px 10px 0px 10px ;
+    background-color: greenyellow;
+    border-radius: 15px; 
+    color:white;
+    font-size: 20px;
+}
+.maininfboard{
+    min-height: 800px;
+    width: 80%;
+   /* border:2px solid black; 
+    background-color:white;
+    border-radius: 10px;*/
+    float:left;
+}
+.inf1{
+    /*border: 2px solid black;
+    border-radius: 5px; */
+    height:400px;
+    width: 100%;
+}
+.inner-inf1{
+    padding: 40px 0px 0px 30px;
+}
+.inf2{
+   /* border: 2px solid black;
+    border-radius: 5px; */
+    height:400px;
+    width: 100%;
+}
+.inner-inf2{
+    padding: 0px 0px 0px 30px;
+}
+.comcom{
+    margin: 250px 200px 0px 20px;
+    padding:5px 5px 5px 50px ;
+    background-color: rgb(153, 152, 152);
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+}
+footer{
+    margin-top: 10px;
+    padding: 30px 0px 30px 40px;
+    background-color: rgb(87, 39, 6);
+    border: 5px solid (87, 39, 6);
+    border-radius: 10px;  
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  .clearfix { display: inline-block; }
+  /* start commented backslash hack \*/
+  * html .clearfix { height: 1%; }
+  .clearfix { display: block; }
+  /* close commented backslash hack */
+/* no-repeat - не повторять изображение l center-положение по горизонтали l top-по вертикали l cover-растягивание  */
