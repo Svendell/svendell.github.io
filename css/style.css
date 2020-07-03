@@ -11,7 +11,7 @@ body{
 header{ 
     margin: 60px 80px 10px 80px;
     padding: 80px 0px 40px 40px;
-    background: url(file:///C:/Users/Svende/Desktop/SITE2/img/frog.jpg) no-repeat center top / cover;
+    background: url(../img/frog.jpg) no-repeat center top / cover;
     border: 5px solid white;
     border-radius: 10px;  
 }
