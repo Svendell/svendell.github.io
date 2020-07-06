@@ -1,140 +1,203 @@
 *{
-    padding: 0;/*отступ внутрь*/
-    margin: 0;/*отступ наружу*/
-font-family: Arial, sans-serif;
-box-sizing: border-box;
-}
-body{
-    background-color: green;
-}
-
-header{ 
-    margin: 60px 80px 10px 80px;
-    padding: 80px 0px 40px 40px;
-    background: url(../img/frog.jpg) no-repeat center top / cover;
-    border: 5px solid white;
-    border-radius: 10px;  
-}
-.headbox{
-
+    margin: 0;
+    padding: 0;
 }
 .container{
-    margin: 0px 80px 0px 80px;
+    width: 1170px;
+    margin: auto;
+   /* border: 5px solid red; */
 }
-.p1{
-    margin-top: 20px;
-    margin-bottom: 20px;
+div{
+box-sizing: border-box;
 }
-.button1{
-    border-radius: 2px;
-    border: greenyellow;
-    color:white;
-    background-color:rgb(106, 158, 27);
-    font-size: 15px;
-    font-family: monospace;
+.headmenu{
+    padding-top: 10px;
 }
-aside{
-    width: 15%;
-    float:left;
-    padding-right: 10px;
+.logo{
+background: url(img/hyp.png);
+width: 100px;
+height: 100px;
+float: left;
 }
-.inner-aside{
-    min-height: 800px;
-    background-color: greenyellow;
-    border-radius: 10px;
-    padding-top: 10px
+header{
+background: white;
+height: 60px;
 }
-.categor{
-    padding: 10px 0px 10px 20px;
-    margin: 0px 10px 0px 10px ;
-    background-color: rgb(7, 54, 7);
-    border:;
-    border-radius: 15px; 
-    color:white;
-    font-size: 20px;
+.menu{
+padding: 10px 0 0 0;
+margin: 0;
+display: block;
+float: right;
 }
-menu{
-    padding:0px;
-    margin:0px;
+.menu li{
+display: block;
+float: left;
+text-decoration: none;
+text-transform:uppercase;
+margin-right: 20px;
 }
-.menuli{
-    box-sizing: border-box;
-    padding-top: 20px;
-    padding-left: 20%;
-    margin: 0px 00px 0px 00px ;
-    list-style-type: none;
+.menu li a{
+    color: black;
 }
-.menuli a{
-    text-decoration: none;
-    color: grey;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
+.fh{
+    width: 100%;
+    height: 650px;
 }
-.boxmain{
-    width: 85%;
-    float:left;
+
+
+.afterhead{
+    width: 100%;
+    height: 650px;
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/gran.png) no-repeat center / cover;
 }
-.inner-boxmain{
-    min-height: 800px;
-    background-color: #fff;
-    border-radius: 10px; 
+.content-1{
+    height: 450px;
+    background: whitesmoke;
 }
-.archive{
-    min-height: 800px;
-    width: 20%;
-    /* border:2px solid black; 
-    background-color:white;
-    border-radius: 10px; */
+.inner-content-1{
+    padding: 90px 0 0 0;
+}
+.kv{
+    text-align: left;
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/kv.png);
+    width: 270px;
+    height: 270px;
     float: left;
 }
-.inner-archive{
-    padding: 10px 0px 10px 20px;
-    margin: 10px 10px 0px 10px ;
-    background-color: greenyellow;
-    border-radius: 15px; 
-    color:white;
-    font-size: 20px;
+.kv p{
+    margin: 30px 20px 0 20px;
+    color: white;
 }
-.maininfboard{
-    min-height: 800px;
-    width: 80%;
-   /* border:2px solid black; 
-    background-color:white;
-    border-radius: 10px;*/
-    float:left;
+.kv2 p{
+    margin: 30px 20px 0 20px;
+    color: white;
 }
-.inf1{
-    /*border: 2px solid black;
-    border-radius: 5px; */
-    height:400px;
-    width: 100%;
+.kv2{
+    text-align: center;
+    margin-left: 30px;
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/kv2.png);
+    width: 270px;
+    height: 270px;
+    float: left;
 }
-.inner-inf1{
-    padding: 40px 0px 0px 30px;
+.content-2{
+    height: 480px;
+    background: white;   
 }
-.inf2{
-   /* border: 2px solid black;
-    border-radius: 5px; */
-    height:400px;
-    width: 100%;
+.inner-content-2{
+    padding: 90px 0 0 0;
 }
-.inner-inf2{
-    padding: 0px 0px 0px 30px;
+#fam{
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/fam.png);
+    width: 550px;
+    height: 315px;
+    float: left;
 }
-.comcom{
-    margin: 250px 200px 0px 20px;
-    padding:5px 5px 5px 50px ;
-    background-color: rgb(153, 152, 152);
-    border-radius: 10px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:20px;
+.textic2{
+    text-align: left;
+    width: 550px;
+    height: 315px;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 50px;
+    float: left;
+}
+.textic2 h1{
+    color: rgb(44, 44, 44);
+}
+.afterc2{
+    height: 650px;
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/woman.png) no-repeat center / cover;
+}
+.content-3{
+    height: 550px;  
+    box-sizing: border-box;
+}
+.inner-content-3{
+    text-align: left;
+    margin-top: 90px;
+}
+.box{
+    margin-top: 20px;
+    width: 330px;
+    height: 230px;
+    float: left;
+}
+.box p{
+font-family: 'Work Sans', sans-serif;
+float: left;
+}
+.box2{
+    margin: 20px 70px 0px 70px;
+}
+.go{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/go.png);
+}
+.go2{
+    margin: 0 350px 0 350px;
+}
+.content4{
+    background: greenyellow;
+    height: 580px;
+}
+.inner-content-4{
+    padding-top: 90px;
+}
+.boxinc4-1{
+    margin-right: 30px;
+    width: 570px;
+    height: 400px;
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/boxinc2.png);
+    float: left;
+}
+.boxin4-2{
+    width: 570px;
+    height: 400px;
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/boxinc2.png);
+    float: left;
+}
+.content-5{
+    height: 450px;
+}
+.inner-content-5{
+padding-top: 90px;
+}
+.boxinc5{
+    float: left;
+    width: 370px;
+    height: 270px;
+    margin-left: 20px;
+    background: url(file:///C:/Users/Svende/Desktop/Maket3/img/prg.png);
 }
 footer{
-    margin-top: 10px;
-    padding: 30px 0px 30px 40px;
-    background-color: rgb(87, 39, 6);
-    border: 5px solid (87, 39, 6);
-    border-radius: 10px;  
+    height: 490px;
+    background: whitesmoke;
+}
+.boxf{
+    margin: 90px 0 0 0;
+    width: 140px;
+    height: 220px;
+    float: left;
+    text-decoration: none;
+}
+.boxf2{
+    margin-left: 200px;
+    text-decoration: none;
+}
+.imgf{
+    margin: 20px 0 0 0;
+    padding-right: 10px;
+}
+.boxf p{
+    margin: 15px 0 0 0;
+}
+.boxf p a{
+    text-decoration: none;
+    color: gray;
+  
+}
 }
 .clearfix:after {
     visibility: hidden;
@@ -149,4 +212,4 @@ footer{
   * html .clearfix { height: 1%; }
   .clearfix { display: block; }
   /* close commented backslash hack */
-/* no-repeat - не повторять изображение l center-положение по горизонтали l top-по вертикали l cover-растягивание  *//**/
+
